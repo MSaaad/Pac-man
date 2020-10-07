@@ -116,7 +116,7 @@ class Game(object):
         screen.fill(BLACK)
         if self.game_over:
             if self.about:
-                self.display_message(screen,"This game PACMAN is created by Shifa Samara and Sana")
+                self.display_message(screen,"Game created by Saad")
             else:
                 self.menu.display_frame(screen)
         else:
